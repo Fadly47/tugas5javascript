@@ -1,0 +1,44 @@
+body {
+  background-color: #fef6f0;
+  font-family: "Segoe UI", sans-serif;
+}
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border: none;
+}
+h3 {
+  color: #ff7f50;
+}
+.btn-custom {
+  border-radius: 8px;
+}
+.btn-success {
+  background-color: #ef0101;
+  border-color: #007bff;
+}
+.btn-success:hover {
+  background-color: #0056b3;
+  border-color: #004a99;
+}
+.btn-danger {
+  background-color: #ff5722;
+  border-color: #ff5722;
+}
+.btn-danger:hover {
+  background-color: #e64a19;
+  border-color: #d84315;
+}
+.table-dark {
+  background-color: #007bff;
+  color: #fff;
+}
+.table-bordered th,
+.table-bordered td {
+  border-color: #ff7f50;
+}
+input.form-control:focus {
+  border-color: #ff7f50;
+  box-shadow: 0 0 0 0.2rem rgba(255, 127, 80, 0.25);
+}
